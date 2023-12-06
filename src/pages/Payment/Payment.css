@@ -1,0 +1,89 @@
+.pay-button {
+  margin: 15px;
+  border-color: #000;
+  background-color: white;
+  color: #000;
+  height: 30px;
+  padding:5px;
+  font-size: 14px;
+  border-radius: 4px;
+  border-width: 1.5px;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.pay-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.pay-button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.pay-button:hover span {
+  padding-right: 20px;
+}
+.pay-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.payment-container {
+    display: "flex";
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align:center;
+      font-family: 'Arial', sans-serif;
+  }
+.payment-account-detail{
+    display:flex;
+    flex-direction: row;
+    justify-items: start;
+    padding-top: 2px;
+    padding-left: 5px;
+    font-size: 14px;
+    color: black;
+      font-family: 'Arial', sans-serif;
+  }
+
+  .verify-button {
+    margin: 15px;
+    border-color: green;
+    background-color: green;
+    color: white;
+    height: 30px;
+    padding:5px;
+    font-size: 14px;
+    border-radius: 4px;
+    border-width: 1.5px;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  .verify-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .verify-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .verify-button:hover span {
+    padding-right: 20px;
+  }
+  .verify-button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

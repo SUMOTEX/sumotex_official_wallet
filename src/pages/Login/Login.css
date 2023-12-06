@@ -1,0 +1,140 @@
+.login-top-section {
+  display: flex;
+  align-content: center;
+  text-align: center;
+}
+.login-image-style {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:5px;
+}
+.login-image-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.login-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+  color: #1261A0;
+}
+.login-welcome {
+  font-size: 20px;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+.login-form {
+  padding:5px;
+  padding-top: 10px;
+  width: 100%;
+}
+.input-form {
+  width: 100%;
+  flex-direction: column;
+  padding-top: 10px;
+}
+.input-label {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  color: grey;
+  min-width: 100%;
+  align-self: left;
+  font-family: 'Arial', sans-serif;
+}
+.input-box {
+  width: 90%;
+  margin-left:5px;
+  margin-top: 5px;
+  margin-right: 50px;
+  padding-right: 10px;
+  height:35px;
+  border-width: 0px;
+  border-radius: 0px;
+  border-bottom-color: darkgrey;
+  border-bottom-width: 2px;
+  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: #EFEFF4; */
+}
+.error-message {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  color: red;
+}
+#login-divider {
+  margin-top:15px;
+  display: block;
+  text-align: center;
+}
+.login-bottom-label {
+    font-family: 'Arial', sans-serif;
+  text-align: center;
+  color:gray;
+  font-size: 14px;
+}
+.login-a-label {
+  color: #1261A0;
+}
+.login-a-label:hover {
+  text-decoration: underline;
+}
+.login-button {
+  border-radius: 6px;
+  background-color:#1261A0;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 90%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;	
+}
+
+.login-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.login-button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.login-button:hover span {
+  padding-right: 25px;
+}
+
+.login-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+.login-forgot-password {
+  text-align: left;
+  font-weight: 400;
+  font-size: 13px;
+    font-family: 'Arial', sans-serif;
+  color: #1261A0;
+}
+.login-forgot-password:hover {
+  text-decoration: underline;
+}

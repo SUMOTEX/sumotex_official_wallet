@@ -1,0 +1,37 @@
+{
+  "short_name": "SUMOTEX Wallet",
+  "name": "SUMOTEX Wallet",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "/app/background.js"
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "activeTab"
+  ],
+  "action": {},
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "css": ["/css/root.css"],
+      "js": ["/js/jquery.js", "/static/js/content.js"]
+    }
+  ],
+  "host_permissions": ["https://*/", "*://*/*"],
+  "web_accessible_resources": [
+    {
+      "resources": ["/static/css/content.css", "/static/media/*", "*.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "icons": {
+    "16": "img/sumotex-icon.png",
+    "48": "img/sumotex-icon.png",
+    "128": "img/sumotex-icon.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}

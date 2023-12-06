@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+      font-family: 'Arial', sans-serif;
+    @font-face {
+        font-family: "Motiva Sans Light";
+        src: url("/fonts/Motiva-Sans-Light.ttf") format("truetype");
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "Motiva Sans Bold";
+        src: url("/fonts/Motiva-Sans-Bold.ttf") format("truetype");
+        font-style: normal;
+    }
+}
+  
+#my-extension-root{
+    width: 370px;
+    height: 500px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 2147483647;
+    background-color: white;
+    box-shadow: 0px 0px 5px #0000009e;
+      font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+  
+#my-extension-root iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}

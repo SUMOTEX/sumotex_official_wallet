@@ -1,0 +1,152 @@
+.register-top-section {
+    display: flex;
+    align-content: center;
+    text-align: center;
+  }
+  .register-image-style {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:5px;
+  }
+  .register-image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .register-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+      font-family: 'Arial', sans-serif;
+    color: #1261A0;
+  }
+  .register-welcome {
+    font-size: 20px;
+      font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-weight: bold;
+  }
+  .register-form {
+    padding:5px;
+    padding-top: 10px;
+    width: 100%;
+  }
+  .register-form {
+    width: 100%;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  .register-label {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    color: grey;
+    min-width: 100%;
+    align-self: left;
+      font-family: 'Arial', sans-serif;
+  }
+  .register-box {
+    width: 90%;
+    margin-left:5px;
+    margin-top: 5px;
+    margin-right: 50px;
+    padding-right: 10px;
+    height:35px;
+    border-width: 0px;
+    border-radius: 0px;
+    border-bottom-color: darkgrey;
+    border-bottom-width: 2px;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #EFEFF4; */
+  }
+  .register-error-message {
+      font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    color: red;
+  }
+  #register-divider {
+    margin-top:15px;
+    display: block;
+    text-align: center;
+  }
+  .register-bottom-label {
+      font-family: 'Arial', sans-serif;
+    text-align: center;
+    color:gray;
+    font-size: 14px;
+  }
+  .register-a-label {
+    color: #1261A0;
+  }
+  .register-a-label:hover {
+    text-decoration: underline;
+  }
+  .register-button {
+    border-radius: 6px;
+    background-color:#1261A0;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 90%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;	
+  }
+  
+  .register-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .register-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .register-button:hover span {
+    padding-right: 25px;
+  }
+  
+  .register-button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  input:focus::placeholder {
+    color: transparent;
+  }
+  .container {
+    display: block;
+    position: relative;
+    margin-left: 5px;
+    margin-bottom: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .tnc-box {
+      padding-left: 2px;
+      font-size: 13px;
+  }
+  .form-name {
+    display: flex;
+    flex-direction: row;
+    max-width: 340px;
+  }
